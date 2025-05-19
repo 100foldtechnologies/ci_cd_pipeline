@@ -14,10 +14,12 @@ Running Minikube locally for creating a pipeline using GitHub Actions isn't feas
 Make the keypair executable:
 <pre>chmod 600 keypair.pem</pre>
 
-For windows to use putty
-<pre>chmod 600 keypair.ppk</pre>
+**Connect with with putty or mobaxterm**
 
 Log in to Ubuntu EC2 Instance:
+**Connect with with putty or mobaxterm for windows**
+
+or using mac terminal
 <pre>ssh -i <keypair.pem> ubuntu@PublicIP </pre>
 Update & Upgrade System:
 <pre>sudo apt update && sudo apt upgrade -y </pre>
