@@ -20,7 +20,7 @@ Log in to Ubuntu EC2 Instance:
 **Connect with with putty or mobaxterm for windows**
 
 or using mac terminal
-<pre>ssh -i <keypair.pem> ubuntu@PublicIP </pre>
+<pre>ssh -i keypair.pem ubuntu@PublicIP </pre>
 Update & Upgrade System:
 <pre>sudo apt update && sudo apt upgrade -y </pre>
 Install Docker
