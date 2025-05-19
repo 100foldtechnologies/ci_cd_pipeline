@@ -109,7 +109,7 @@ sudo mv argocd /usr/local/bin/argocd</pre>
 **Expose ArgoCD Service via NodePort (Ignore if using port forwarding as describe above)**
 <pre>kubectl get svc -n argocd</pre>
 Replace Service Type ClusterIP with a NodePort (or LoadBalancer) - (default: 30000-32767)
-<pre>kubectl edit svc argocd-server -n argocd<pre>
+<pre>kubectl edit svc argocd-server -n argocd</pre>
 Add the NodePort (30007 and 30008 - Anywhere IPv4) to Inbound Rules for the EC2 Instance
 and
 
@@ -134,7 +134,7 @@ Rerun Port-forward command with the NodePort (30008) in a dedicated terminal
      
    <pre> Name: ARGOCD_PASSWORD
     Value: <argocd init password>
-    Add secret </pr>
+    Add secret </pre>
       
 **Configure Repository on ArgoCD UI (or CLI)**
 1. Go to Settings
