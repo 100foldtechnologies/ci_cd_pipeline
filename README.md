@@ -13,6 +13,10 @@ Running Minikube locally for creating a pipeline using GitHub Actions isn't feas
 # Create EC2 Instance & Set up Environment
 Make the keypair executable:
 <pre>chmod 600 keypair.pem</pre>
+
+For windows to use putty
+<pre>chmod 600 keypair.ppk</pre>
+
 Log in to Ubuntu EC2 Instance:
 <pre>ssh -i <keypair.pem> ubuntu@PublicIP </pre>
 Update & Upgrade System:
