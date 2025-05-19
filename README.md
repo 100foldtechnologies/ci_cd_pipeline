@@ -36,8 +36,8 @@ Install Kubectl
 <pre>kubectl version --client </pre>
 Install & Start Minikube
 <pre>curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64 </pre>
-<presudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64 </pre>
-<preminikube version</pre>
+<pre>sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64 </pre>
+<pre>minikube version</pre>
 <pre>minikube start --driver=docker</pre>
 <pre>kubectl get nodes </pre>
 Enable Ingress on Minikube 
